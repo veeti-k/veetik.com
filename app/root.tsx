@@ -4,8 +4,8 @@ import tailwindStylesheetUrl from "./styles/tailwind.css";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
   viewport: "width=device-width,initial-scale=1",
+  title: "Coming soon",
 });
 
 export const links: LinksFunction = () => {
