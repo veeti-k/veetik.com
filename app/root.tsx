@@ -14,10 +14,16 @@ export const links: LinksFunction = () => {
 
 export default function App() {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-gray-900">
       <head>
         <Meta />
         <Links />
+        <script
+          async
+          defer
+          data-website-id="9b9d8739-c699-45ea-8542-ba5e90dee200"
+          src="https://analytics.veetik.com/umami.js"
+        ></script>
       </head>
       <body>
         <Outlet />
