@@ -6,6 +6,7 @@ export const meta: MetaFunction = () => ({
   charset: "utf-8",
   viewport: "width=device-width,initial-scale=1",
   title: "Coming soon",
+  "theme-color": "#111827",
 });
 
 export const links: LinksFunction = () => {
@@ -25,7 +26,7 @@ export default function App() {
           src="https://analytics.veetik.com/umami.js"
         ></script>
       </head>
-      <body>
+      <body className="overflow-hidden">
         <Outlet />
         <ScrollRestoration />
         {process.env.NODE_ENV === "development" && <LiveReload />}
